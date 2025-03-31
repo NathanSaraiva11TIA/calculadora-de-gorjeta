@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@@ -1,217 +1,221 @@
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
  
  * {
      margin: 0;
@@ -97,6 +98,10 @@
                  border-radius: .5rem;
              }
  
+             .button-selected {
+                 background: var(--topaz);
+             }
+ 
              input {
                  width: 100%;
                  font-size: 2.4rem;
@@ -163,6 +168,11 @@
      }
  }
  
+     input::-webkit-inner-spin-button,
+     input::-webkit-outer-spin-button {
+         display: none;
+     }
+ 
  @media(min-width: 920px) {
      header {
          margin-top: 5rem;
@@ -187,6 +197,7 @@
  
              button:hover {
                  background: var(--topaz);
+                 background: var(--water-leaf);
                  cursor: pointer;
                  transition: .3s;
              }
@@ -215,4 +226,3 @@
              cursor: pointer;
          }
      }
- }
